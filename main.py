@@ -1,8 +1,4 @@
-import pandas as pd
-import numpy
-import matplotlib
-print(matplotlib.__version__)
-print(pd.__version__)
-print (numpy.__version__)
+import pandas as pd, numpy, matplotlib
+print(matplotlib.__version__, pd.__version__, numpy.__version__)
 
-from small_exercises.yourName2 import *
+from small_exercises.fiveTimes import *
